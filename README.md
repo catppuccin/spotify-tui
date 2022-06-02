@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for Spotify-TUI
+	Catppuccin for <a href="https://github.com/Rigellute/spotify-tui">Spotify-TUI</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -17,10 +17,11 @@
 
 ## Usage
 
-1. For the background color to work you will need the Catppuccin-Theme for your terminal
+1. Choose your favourite <a href="https://github.com/catppuccin/catppuccin#-palettes">Catppuccin flavour</a>
+2. For the background color to work you will also need the correct Catppuccin-Theme for your terminal
 2. Do one of the following:
-  - Clone the repo, cd into it and: ```cp config.yml ~/.config/spotify-tui/```
-  - Just copy the content of config.yml into your own config.yml
+  - Clone the repo, cd into it and: ```cp latte/frappe/macchiato/mocha.yml ~/.config/spotify-tui/```
+  - Just copy the content of latte/frappe/macchiato/mocha.yml into your own config.yml
 
 ## 💝 Thanks to
 
