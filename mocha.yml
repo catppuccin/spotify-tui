@@ -4,12 +4,12 @@ theme:
   hint: "249, 226, 175" # hint text in errors Yellow
   playbar_background: "24, 24, 37" # background of progress bar "Mantle"
   playbar_progress: "166, 227, 161" # filled-in part of the progress bar Green
-  playbar_progress_text: "147, 153, 178" # song length and time played/left indicator in the progress bar "Overlay2"
+  playbar_progress_text: "166, 173, 200" # song length and time played/left indicator in the progress bar "Subtext 0"
   playbar_text: "166, 173, 200" # artist name in player pane is "Subtext 0"
-  inactive: "186, 194, 222" # borders of inactive panes "Subtext 1"
+  inactive: "108, 112, 134" # borders of inactive panes "Overlay 0"
   text: "205, 214, 244" # text in panes is "Text"
   active: "203, 166, 247" # current playing song in list Mauve
   banner: "148, 226, 213" # the "spotify-tui" banner on launch Teal
   hovered: "245, 194, 231" # hovered pane border Pink
-  selected: "245, 194, 231" # a) selected pane border, b) hovered item in list, & c) track title in player Pink
-  header: "148, 226, 213" # header text in panes (e.g. 'Title', 'Artist', etc.) Teal
+  selected: "180, 190, 254" # a) selected pane border, b) hovered item in list, & c) track title in player Lavender
+  header: "180, 190, 254" # header text in panes (e.g. 'Title', 'Artist', etc.) Lavender
