@@ -2,9 +2,9 @@ theme:
   error_border: "210, 15, 57" # error dialog border is Red
   error_text: "230, 69, 83" # error message text (e.g. "Spotify API reported error 404") is Maroon
   hint: "223, 142, 29" # hint text in errors Yellow
-  playbar_background: "230, 233, 239" # background of progress bar "Mantle"
-  playbar_progress: "64, 160, 43" # filled-in part of the progress bar Green
-  playbar_progress_text: "108, 111, 133" # song length and time played/left indicator in the progress bar "Subtext 0"
+  playbar_background: "220, 224, 232" # background of progress bar "Crust"
+  playbar_progress: "230, 233, 239" # filled-in part of the progress bar Mantle
+  playbar_progress_text: "64, 160, 43" # song length and time played/left indicator in the progress bar "Green"
   playbar_text: "108, 111, 133" # artist name in player pane is "Subtext 0"
   inactive: "124, 127, 147" # borders of inactive panes "Overlay 0"
   text: "76, 79, 105" # text in panes is "Text"
