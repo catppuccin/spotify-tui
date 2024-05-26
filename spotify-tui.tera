@@ -1,6 +1,6 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "2.2.0"
   matrix:
     - flavor
   filename: "themes/{{ flavor.identifier }}.yml"
@@ -10,20 +10,18 @@ whiskers:
 {{ color.rgb.r }}, {{ color.rgb.g }}, {{ color.rgb.b }}
 {%- endmacro -%}
 
-{%- set palette = flavor.colors -%}
-
 theme:
-  error_border: "{{ self::rgb(color=palette.red) }}" # error dialog border
-  error_text: "{{ self::rgb(color=palette.maroon) }}" # error message text (e.g. "Spotify API reported error 404")
-  hint: "{{ self::rgb(color=palette.yellow) }}" # hint text in errors
-  playbar_background: "{{ self::rgb(color=palette.crust) }}" # background of progress bar
-  playbar_progress: "{{ self::rgb(color=palette.mantle) }}" # filled-in part of the progress bar
-  playbar_progress_text: "{{ self::rgb(color=palette.green) }}" # song length and time played/left indicator in the progress bar
-  playbar_text: "{{ self::rgb(color=palette.subtext0) }}" # artist name in player pane
-  inactive: "{{ self::rgb(color=palette.overlay0) }}" # borders of inactive panes
-  text: "{{ self::rgb(color=palette.text) }}" # text in panes
-  active: "{{ self::rgb(color=palette.mauve) }}" # current playing song in list
-  banner: "{{ self::rgb(color=palette.teal) }}" # the "spotify-tui" banner on launch
-  hovered: "{{ self::rgb(color=palette.pink) }}" # hovered pane border
-  selected: "{{ self::rgb(color=palette.lavender) }}" # a) selected pane border, b) hovered item in list, & c) track title in player
-  header: "{{ self::rgb(color=palette.lavender) }}" # header text in panes (e.g. 'Title', 'Artist', etc.)
+  error_border: "{{ self::rgb(color=red) }}" # error dialog border
+  error_text: "{{ self::rgb(color=maroon) }}" # error message text (e.g. "Spotify API reported error 404")
+  hint: "{{ self::rgb(color=yellow) }}" # hint text in errors
+  playbar_background: "{{ self::rgb(color=crust) }}" # background of progress bar
+  playbar_progress: "{{ self::rgb(color=mantle) }}" # filled-in part of the progress bar
+  playbar_progress_text: "{{ self::rgb(color=green) }}" # song length and time played/left indicator in the progress bar
+  playbar_text: "{{ self::rgb(color=subtext0) }}" # artist name in player pane
+  inactive: "{{ self::rgb(color=overlay0) }}" # borders of inactive panes
+  text: "{{ self::rgb(color=text) }}" # text in panes
+  active: "{{ self::rgb(color=mauve) }}" # current playing song in list
+  banner: "{{ self::rgb(color=teal) }}" # the "spotify-tui" banner on launch
+  hovered: "{{ self::rgb(color=pink) }}" # hovered pane border
+  selected: "{{ self::rgb(color=lavender) }}" # a) selected pane border, b) hovered item in list, & c) track title in player
+  header: "{{ self::rgb(color=lavender) }}" # header text in panes (e.g. 'Title', 'Artist', etc.)
