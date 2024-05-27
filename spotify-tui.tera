@@ -3,7 +3,7 @@ whiskers:
   version: "2.2.0"
   matrix:
     - flavor
-  filename: "{{ flavor.identifier }}.yml"
+  filename: "themes/catppuccin-{{ flavor.identifier }}.yml"
 ---
 
 {%- macro rgb(color) -%}
